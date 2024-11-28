@@ -1,1 +1,6 @@
-<app-detalle-libros></app-detalle-libros>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <a id="home" [routerLink]="['/Home']" routerLinkActive="router-link-active">Home</a>
+    <a id="listaLibros" [routerLink]="['/ListaRecetas']" routerLinkActive="router-link-active">Lista Libros</a>
+</nav>
+
+<router-outlet></router-outlet>
