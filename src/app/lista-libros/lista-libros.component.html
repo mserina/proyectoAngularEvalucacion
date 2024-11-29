@@ -1,6 +1,30 @@
 <p>Secciones</p>
-<button>Mostrar todo los libros</button><br>
-<button>Saga Saiyan</button>
-<button>Saga Freezer</button>
-<button>Saga Cell</button>
-<button>Saga Buu</button>
+
+<button (click)="cargarDatos('Todos')">Mostrar todos los libros</button><br>
+<button (click)="cargarDatos('Saga Saiyan')">Saga Saiyan</button>
+<button (click)="cargarDatos('Saga Freezer')">Saga Freezer</button>
+<button (click)="cargarDatos('Saga Cell')">Saga Cell</button>
+<button (click)="cargarDatos('Saga Buu')">Saga Buu</button>
+
+<div *ngIf="items.length > 0; else cargando">
+    <h2>{{titulo}}</h2>
+    <ul>
+      <li *ngFor="let item of items">
+        <p><strong>Titulo: </strong> {{ item.titulo }}</p>
+      </li>
+    </ul>
+</div>
+
+<ng-template #cargando>
+   <p>Cargando datos...</p>
+</ng-template>
+
+<div class="card" style="width: 18rem;">
+  <img src="../img/cap1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+     <h5 class="card-title">La llegada de Raditz</h5>
+     <p class="card-text">Capítulo 1.</p>
+     <a href="#" class="btn btn-primary">9,12€</a>
+   </div>
+</div>
+

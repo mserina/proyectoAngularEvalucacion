@@ -3,7 +3,7 @@
       {
         "id": 1,
         "titulo": "La llegada de Raditz",
-        "saga": "Saiyan",
+        "saga": "Saga Saiyan",
         "capitulo": "Capítulo 1",
         "publicacion": "1989-11-26",
         "imagen": "https://example.com/images/raditz.jpg",
@@ -12,7 +12,7 @@
       {
         "id": 2,
         "titulo": "La lucha contra Vegeta",
-        "saga": "Saiyan",
+        "saga": "Saga Saiyan",
         "capitulo": "Capítulo 2",
         "publicacion": "1990-02-07",
         "imagen": "https://example.com/images/vegeta.jpg",
@@ -21,7 +21,7 @@
       {
         "id": 3,
         "titulo": "La aparición de Freezer",
-        "saga": "Freezer",
+        "saga": "Saga Freezer",
         "capitulo": "Capítulo 3",
         "publicacion": "1990-07-10",
         "imagen": "https://example.com/images/freezer.jpg",
@@ -30,7 +30,7 @@
       {
         "id": 4,
         "titulo": "La transformación de Goku",
-        "saga": "Freezer",
+        "saga": "Saga Freezer",
         "capitulo": "Capítulo 4",
         "publicacion": "1990-12-17",
         "imagen": "https://example.com/images/super-saiyan.jpg",
@@ -39,7 +39,7 @@
       {
         "id": 5,
         "titulo": "El regreso de Cell",
-        "saga": "Cell",
+        "saga": "Saga Cell",
         "capitulo": "Capítulo 5",
         "publicacion": "1991-08-03",
         "imagen": "https://example.com/images/cell.jpg",
@@ -48,7 +48,7 @@
       {
         "id": 6,
         "titulo": "El sacrificio de Gohan",
-        "saga": "Cell",
+        "saga": "Saga Cell",
         "capitulo": "Capítulo 6",
         "publicacion": "1991-11-19",
         "imagen": "https://example.com/images/gohan.jpg",
@@ -57,7 +57,7 @@
       {
         "id": 7,
         "titulo": "Majin Boo despierta",
-        "saga": "Majin Boo",
+        "saga": "Saga Buu",
         "capitulo": "Capítulo 7",
         "publicacion": "1992-05-12",
         "imagen": "https://example.com/images/majin-boo.jpg",
@@ -66,7 +66,7 @@
       {
         "id": 8,
         "titulo": "La fusión de Gotenks",
-        "saga": "Majin Boo",
+        "saga": "Saga Buu",
         "capitulo": "Capítulo 8",
         "publicacion": "1992-10-22",
         "imagen": "https://example.com/images/gotenks.jpg",
