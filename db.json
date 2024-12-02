@@ -60,7 +60,7 @@
         "saga": "Saga Buu",
         "capitulo": "Capítulo 7",
         "publicacion": "1992-05-12",
-        "imagen": "https://example.com/images/majin-boo.jpg",
+        "imagen": "img/cap7.webp",
         "precio": 17.99
       },
       {
@@ -69,7 +69,7 @@
         "saga": "Saga Buu",
         "capitulo": "Capítulo 8",
         "publicacion": "1992-10-22",
-        "imagen": "https://example.com/images/gotenks.jpg",
+        "imagen": "img/cap8.webp",
         "precio": 18.99
       }
     ]
