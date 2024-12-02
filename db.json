@@ -6,7 +6,7 @@
         "saga": "Saga Saiyan",
         "capitulo": "Capítulo 1",
         "publicacion": "1989-11-26",
-        "imagen": "https://example.com/images/raditz.jpg",
+        "imagen": "img/cap1.jpg",
         "precio": 9.99
       },
       {
@@ -15,7 +15,7 @@
         "saga": "Saga Saiyan",
         "capitulo": "Capítulo 2",
         "publicacion": "1990-02-07",
-        "imagen": "https://example.com/images/vegeta.jpg",
+        "imagen": "img/cap2.jpg",
         "precio": 12.99
       },
       {
@@ -24,7 +24,7 @@
         "saga": "Saga Freezer",
         "capitulo": "Capítulo 3",
         "publicacion": "1990-07-10",
-        "imagen": "https://example.com/images/freezer.jpg",
+        "imagen": "img/cap3.webp",
         "precio": 14.99
       },
       {
@@ -33,7 +33,7 @@
         "saga": "Saga Freezer",
         "capitulo": "Capítulo 4",
         "publicacion": "1990-12-17",
-        "imagen": "https://example.com/images/super-saiyan.jpg",
+        "imagen": "img/cap4.jpg",
         "precio": 15.99
       },
       {
@@ -42,7 +42,7 @@
         "saga": "Saga Cell",
         "capitulo": "Capítulo 5",
         "publicacion": "1991-08-03",
-        "imagen": "https://example.com/images/cell.jpg",
+        "imagen": "img/cap5.webp",
         "precio": 13.99
       },
       {
@@ -51,7 +51,7 @@
         "saga": "Saga Cell",
         "capitulo": "Capítulo 6",
         "publicacion": "1991-11-19",
-        "imagen": "https://example.com/images/gohan.jpg",
+        "imagen": "img/cap6.webp",
         "precio": 16.99
       },
       {

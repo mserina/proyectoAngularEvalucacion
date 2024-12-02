@@ -1,1 +1,17 @@
-<p>detalle-libros works!</p>
+<div *ngIf="libro; else noSeleccionado">
+  <div class="card" style="width: 18rem;">
+    <img src="{{libro.imagen}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{libro.titulo}}</h5>
+      <p class="card-text"></p>
+      
+      <a href="#" class="btn btn-primary">{{libro.precio}}</a>
+    </div>
+  </div>
+</div>
+
+<ng-template #noSeleccionado>
+  <p>Por favor, selecciona un libro para ver los detalles.</p>
+</ng-template>
+
+
