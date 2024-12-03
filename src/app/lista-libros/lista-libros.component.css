@@ -1,0 +1,102 @@
+/* lista-libros.component.css */
+body {
+    background-image: url('/img/imagenFondo.jpg'); /* Fondo de Dragon Ball */
+    background-size: cover; /* Cubrir toda la pantalla */
+    background-position: center; /* Centrar la imagen */
+    color: #fff; /* Color de texto blanco */
+    padding-bottom: 3rem;
+    
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semi-transparente para el contenedor */
+    padding: 2rem; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    padding-bottom: 6rem;
+}
+
+h1, h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra de texto */
+    
+}
+
+#kanji{
+    border-radius: 22rem;
+    width: 8rem;
+}
+
+#TodoButton{
+
+    background-image: url(/img/goku.jpg);
+    background-size: 62rem 52rem;
+    background-position: 51% -223px;
+    border: none;
+    width: 175px;
+    height: 84px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+
+#SaiyanButton{
+    
+    background-image: url(/img/VegetaSaga.jpg);
+    background-size: 23rem 19rem;
+    background-position: 51% -125px;
+    border: none;
+    width: 175px;
+    height: 84px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#FreezerButton{
+    
+    background-image: url(/img/FreezerSaga.jpg);
+    background-size: 19rem 20rem;
+    background-position: 50% -124px;
+    border: none;
+    width: 175px;
+    height: 84px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#CellButton{
+    
+    background-image: url('/img/CellSaga.jpg');
+    background-size: 55rem 37rem;
+    background-position: 50% -244px;
+    border: none;
+    width: 175px;
+    height: 84px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#BuuButton{
+
+    background-image: url(/img/BuuSaga.jpg);
+    background-size: 62rem 52rem;
+    background-position: 51% -223px;
+    border: none;
+    width: 175px;
+    height: 84px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-vegeta:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón al pasar el mouse */
+}

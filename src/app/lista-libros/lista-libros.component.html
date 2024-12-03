@@ -1,24 +1,40 @@
 <!-- lista-libros.component.html -->
-<p>Secciones</p>
+<body>
+  <div class="container text-center">
+      <header class="my-5">
+          <h1 class="display-4 text-warning">Escoge tu historia prefererida de cada saga</h1>
+      </header>
 
-<button (click)="cargarDatos('Todos')">Mostrar todos los libros</button><br>
-<button (click)="cargarDatos('Saga Saiyan')">Saga Saiyan</button>
-<button (click)="cargarDatos('Saga Freezer')">Saga Freezer</button>
-<button (click)="cargarDatos('Saga Cell')">Saga Cell</button>
-<button (click)="cargarDatos('Saga Buu')">Saga Buu</button>
+      <div class="my-5">
+          <h2 class="text-warning">Sagas</h2>
+          <div class="btn-group mb-3" role="group" aria-label="Secciones de Libros">
+              <button id="TodoButton" class="btn btn-primary" (click)="cargarDatos('Todos')"><h3>Mostrar todos los libros</h3></button>
+              <button id="SaiyanButton" class="btn btn-success" (click)="cargarDatos('Saga Saiyan')"><h2>Saiyan</h2></button>
+              <button id="FreezerButton" class="btn btn-danger" (click)="cargarDatos('Saga Freezer')"><h3>Saga Freezer</h3></button>
+              <button id="CellButton" class="btn btn-info" (click)="cargarDatos('Saga Cell')"><h3>Saga Cell</h3></button>
+              <button id="BuuButton" class="btn btn-warning" (click)="cargarDatos('Saga Buu')"><h3>Saga Buu</h3></button>
+          </div>
 
-<div *ngIf="items.length > 0; else cargando">
-  <h2>{{titulo}}</h2>
-  <ul>
-    <li *ngFor="let item of items" (click)="libroSeleccionado(item)">
-      <p><strong>Titulo: </strong> {{ item.titulo }}</p>
-    </li>
-  </ul>
-</div>
+          <div *ngIf="items.length > 0; else cargando" class="mt-4">
+              <h2 class="text-light">{{titulo}}</h2>
+              <ul class="list-group">
+                  <li *ngFor="let item of items" (click)="libroSeleccionado(item)" class="list-group-item list-group-item-action">
+                      <p><strong>Titulo: </strong> {{ item.titulo }}</p>
+                  </li>
+              </ul>
+          </div>
 
-<ng-template #cargando>
-  <p>Cargando datos...</p>
-</ng-template>
+          <ng-template #cargando>
+              <p class="text-light">Cargando datos...</p>
+          </ng-template>
 
-
-<app-detalle-libros></app-detalle-libros>  <!-- Asegúrate de agregar el componente hijo aquí -->
+          <app-detalle-libros></app-detalle-libros>  <!-- Asegúrate de agregar el componente hijo aquí -->
+      
+          <div class="my-5">
+            <h2 class="text-warning">¡Explora y disfruta!</h2>
+            <p class="text-light">Sumérgete en las aventuras de Dragon Ball y descubre historias épicas.</p>
+            <img id="kanji" src="img/kanji.png" alt="Dragon Ball Logo" class="img-fluid my-3" />
+          </div>
+      </div>
+  </div>
+</body>
